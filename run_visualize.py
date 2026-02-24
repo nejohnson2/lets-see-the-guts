@@ -32,6 +32,7 @@ VIZ_MODULES = {
     "logit_lens": ("viz.token_prediction", "05_token_prediction"),
     "cross_prompt": ("viz.cross_prompt", "06_cross_prompt"),
     "pca": ("viz.dimensionality", "07_dimensionality"),
+    "3d": ("viz.activation_3d", "08_activation_3d"),
 }
 
 
