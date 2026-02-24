@@ -1,0 +1,25 @@
+prompts:
+  - id: "hello_world"
+    text: "Hello world"
+    description: "Simple greeting - tests basic language patterns"
+    max_gen_tokens: 30
+
+  - id: "eat_soup"
+    text: "Eat soup"
+    description: "Action phrase - tests verb-noun relationships"
+    max_gen_tokens: 30
+
+  - id: "capital_france"
+    text: "The capital of France is"
+    description: "Factual completion - tests knowledge retrieval"
+    max_gen_tokens: 20
+
+  - id: "once_upon"
+    text: "Once upon a time"
+    description: "Narrative start - tests creative continuation patterns"
+    max_gen_tokens: 50
+
+  - id: "math_problem"
+    text: "To solve this math problem"
+    description: "Reasoning prompt - tests analytical patterns"
+    max_gen_tokens: 40
